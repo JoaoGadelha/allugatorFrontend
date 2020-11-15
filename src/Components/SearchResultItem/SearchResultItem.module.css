@@ -1,0 +1,35 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    padding: 30px;
+    row-gap: 10px;
+    column-gap: 20px;
+    border-radius: 5px;
+}
+
+.removido {
+    display: none;
+    color: red;
+}
+
+.button {
+    font-weight: bold;
+    color: rgb(102, 102, 255);
+    letter-spacing: 1px;
+    background: rgb(236, 236, 255);
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    transition: ease all 0.3s;
+    cursor: pointer;
+    grid-column: span 2;
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+.button:hover {
+    background: rgb(181, 181, 255);
+    color: white;
+}

@@ -1,0 +1,41 @@
+.container {
+    border: solid rgba(0,0,0,.1) 1px;
+    display: inline-block;
+    padding: 20px 50px;
+}
+
+.form {
+    display: grid;
+    grid-gap: 10px;
+    font-size: 12px;
+}
+
+.button {
+    font-weight: bold;
+    color: rgb(102, 102, 255);
+    letter-spacing: 1px;
+    background: rgb(236, 236, 255);
+    border-radius: 10px;
+    padding: 10px 20px;
+    border: none;
+    transition: ease all 0.3s;
+    cursor: pointer;
+    grid-column: span 2;
+    margin-top: 30px;
+}
+
+.button:hover {
+    background: rgb(181, 181, 255);
+    color: white;
+}
+
+.message {
+    color: rgba(0,0,0,0);
+    margin-top: 20px;
+    text-align: center;
+}
+
+.input {
+    border: solid rgb(0, 0, 0) 1px;
+    border-radius: 3px;
+}

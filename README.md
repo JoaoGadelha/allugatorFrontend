@@ -1,6 +1,7 @@
 # Frontend do Allugator
 
-
+Frontend construído em React.js que utiliza a API para pesquisa e cadastro de funcionários. A API, construida em Node.js/Express.js, está rodando em https://allugator.herokuapp.com/, e o frontend está presente em https://allugator.netlify.app/. O banco de dados de funcionários está presente no MongoDB Atlas.
+ 
 ## Instalar aplicativo 
 
 Para instalar o aplicativo, insira
